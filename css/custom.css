@@ -1,0 +1,55 @@
+.control_panel{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.poker_card{
+    border:2px solid black;
+    width: 100px;
+    height: 130px;
+    display:inline-flex;
+    position: relative;
+    argin: 10px;
+    margin:5px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.suit_left_top{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.suit_right_bottom{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.number_mid{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+.suit{
+    font-size: 16px;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.card_back{
+    background-color:#aab579;
+}
+.card_front{
+    background-color:white;
+}
+#start{
+    font-size: 25px;
+    padding: 0 10px;
+    background-color: #f0ffba;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+body{
+    background-color: #58842c;
+}
